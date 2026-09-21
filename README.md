@@ -1,4 +1,7 @@
 # docker-arcgis-enterprise
+
+> This repository retains the experimental setup and historical documentation from [Wildsong/docker-arcgis-enterprise](https://github.com/Wildsong/docker-arcgis-enterprise). The status and version statements below describe the upstream author's recorded environment; current Esri support and compatibility have not been validated by this documentation update. Preserve the [upstream MIT license](LICENSE) and [copyright attribution](COPYRIGHT.md).
+
 ESRI ArcGIS Enterprise running in Docker containers on Linux
 
 This project helped me learn vast amounts about how
@@ -388,3 +391,7 @@ that is pretty easy to read, basically it's filling in a form and sending it.
       validate_response(response)
 
 You should be able to see the form by going to https://yourserver:6443/admin/createNewSite
+
+## Repository guidance and copyright
+
+Repository-specific coding and validation instructions are in [AGENTS.md](AGENTS.md). See [COPYRIGHT.md](COPYRIGHT.md) for ownership, licensing scope, and third-party notices. The existing [MIT license](LICENSE) remains in effect.
